@@ -20,7 +20,7 @@ const Product: React.FC = () => {
         setProducts(response.data);
       })
       .catch(error => {
-        console.error('Error fetching products:', error);
+        console.error('Error', error);
       });
   }, []);
 
